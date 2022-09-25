@@ -1,0 +1,13 @@
+print ("Welcome. This is a quiz game about the popular vr game called Gorilla Tag.")
+playing = input("Do you want to play my game? ")
+
+print (playing)
+if playing != "yes": quit()
+
+print("AMAZING! Lets play, shall we?...")
+
+answer = input("who is the most famous Ghost? ")
+
+if answer == "pbbv":
+ 
+ print("!CORRECT!")
